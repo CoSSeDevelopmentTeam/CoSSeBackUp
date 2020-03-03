@@ -1,0 +1,7 @@
+name: BackUp
+main: net.comorevi.cosse.backup.Main
+version: 1.0.0
+author: popkechupki
+api: ["1.0.0"]
+load: POSTWORLD
+description: "自動バックアッププラグイン"
