@@ -1,0 +1,7 @@
+## プラグイン無効化時にバックアップを取ります。(true or false)
+AutoBackup: true
+## 古いログファイルを消去します。(true or false)
+LogRemover: true
+## バックアップしないファイルを指定します。
+Ignores:
+  - nukkit-1.0-SNAPSHOT.jar
