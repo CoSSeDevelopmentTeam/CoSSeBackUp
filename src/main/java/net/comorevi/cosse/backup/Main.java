@@ -57,6 +57,12 @@ public class Main extends PluginBase {
         for (String s : config.getStringList("Ignores")) {
             pathList.add(s);
         }
+        if (config.getBoolean("IgnorePlugins")) {
+            File[] files = new File("./plugins/").listFiles();
+            for (File file : files) {
+                if (file.getName().endsWith(".jar")) pathList.add("plugins/"+file.getName());
+            }
+        }
         String[] paths = pathList.toArray(new String[0]);
         try {
             ZipUtil.removeEntries(new File(backupDataFolderPath + time + ".zip"), paths);

@@ -1,6 +1,6 @@
 name: BackUp
 main: net.comorevi.cosse.backup.Main
-version: 1.0.0
+version: 1.1.0
 author: popkechupki
 api: ["1.0.0"]
 load: POSTWORLD

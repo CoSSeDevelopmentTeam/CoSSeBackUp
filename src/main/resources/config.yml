@@ -2,6 +2,9 @@
 AutoBackup: true
 ## 古いログファイルを消去します。(true or false)
 LogRemover: true
+## プラグインのJARファイルをバックアップから除外します。(true or false)
+## 有効にしてもプラグインのデータフォルダはバックアップに含まれます。
+IgnorePlugins: false
 ## バックアップしないファイルを指定します。
 Ignores:
   - nukkit-1.0-SNAPSHOT.jar
